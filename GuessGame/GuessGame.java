@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class GuessGame {
+
     public static void main(String[] args) {
         int number = (int)(Math.random()*100);
         Scanner sc = new Scanner(System.in);
@@ -20,4 +21,5 @@ public class GuessGame {
 
 
     }
+
 }
